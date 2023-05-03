@@ -1,0 +1,60 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+html, body {
+	font-size: 16px;
+}
+
+section#demo {
+	background: #fbfbfb;
+    position: relative;
+    padding: 0;
+    min-height: 100vh;
+    transition: height 9999s;
+}
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+}
+.card {
+	background: #fff;
+    box-shadow: 13px 13px 28px 2px rgba(0, 0, 0, 0.035);
+    padding: 7px 15px;
+}
+
+div.conv-form-wrapper div.options {
+    word-wrap: normal; 
+    white-space: break-spaces;
+    overflow-x: scroll;
+	position: inherit !important;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-5px);
+}
+#calendar {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .clearfix[_ngcontent-yhk-c1] {
+    padding-left: 40px;
+}
+.chatbot-form[_ngcontent-yhk-c1] {
+    padding: 0;
+    margin: 0;
+}
+.chatbot-form[_ngcontent-yhk-c1] div[_ngcontent-yhk-c1] {
+    position: relative;
+}
+.chatbot-form[_ngcontent-yhk-c1] div[_ngcontent-yhk-c1] input[type=text][_ngcontent-yhk-c1], .chatbot-form[_ngcontent-yhk-c1] div[_ngcontent-yhk-c1] textarea[_ngcontent-yhk-c1] {
+    padding: 10px;
+    margin: 15px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background: #fff;
+}
