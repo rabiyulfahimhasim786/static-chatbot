@@ -51,128 +51,64 @@
 										<option value="" disabled selected>Select an appointment slot</option>
 									</select>  -->
 									<select  data-conv-question="Accepted Insurances" name="first-question" >
-	                                    <option value="Rock">Aetna Health Plans</option>
-	                                    <option value="Pop">Blue Cross and Blue Shield - Texas</option>
-	                                    <option value="Country">Cigna</option>
+	                                    <option value="yes">Aetna Health Plans</option>
+	                                    <option value="yes">Blue Cross and Blue Shield - Texas</option>
+	                                    <option value="yes">Cigna</option>
 	                                    <option value="yes">Humana Care Plan</option>
-										<option value="Rock">Medicare</option>
-	                                    <option value="Pop">MHealth</option>
-	                                    <option value="Country">OptumHealth</option>
-	                                    <option value="Classic">SelectCare</option>
-										<option value="Rock">TexanPlus</option>
-	                                    <option value="Pop">UnitedHealthCare</option>
-	                                    <option value="Country">Wellcare</option>
-	                                    <option value="Classic">Memorial Hermann Health Insurance</option>
+										<option value="yes">Medicare</option>
+	                                    <option value="yes">MHealth</option>
+	                                    <option value="yes">OptumHealth</option>
+	                                    <option value="yes">SelectCare</option>
+										<option value="yes">TexanPlus</option>
+	                                    <option value="yes">UnitedHealthCare</option>
+	                                    <option value="yes">Wellcare</option>
+	                                    <option value="yes">Memorial Hermann Health Insurance</option>
 	                                </select>
 									<select data-conv-question="Select an appointment Date" name="first-question">
-	                                    <option value="yes">04/05/2023</option>
 										<option value="yes">05/05/2023</option>
 										<option value="yes">06/05/2023</option>
 										<option value="yes">07/05/2023</option>
+										<option value="yes">08/05/2023</option>
 	                                </select>
 									<select data-conv-question="Select slot" name="first-question">
 	                                    <option value="yes">9.00am - 11.00am</option>
 	                                    <option value="sure">1.00pm - 3.00pm</option>
 										<option value="sure">6.00pm - 8.00pm</option>
 	                                </select>
-									<!-- <select data-conv-question="Select location" name="name">
-										<option>
-											<form id="myForm">
-												<div class="form-row">
-												<div class="form-group col-md-6">
-													<label for="firstName">First Name</label>
-													<input type="text" class="form-control" id="firstName" name="firstName" required>
-												</div>
-												<div class="form-group col-md-6">
-													<label for="lastName">Last Name</label>
-													<input type="text" class="form-control" id="lastName" name="lastName" required>
-												</div>
-												</div>
-												<div class="form-row">
-												<div class="form-group col-md-6">
-													<label for="dob">Date of Birth</label>
-													<input type="date" class="form-control" id="dob" name="dob" required>
-												</div>
-												<div class="form-group col-md-6">
-													<label for="gender">Gender</label>
-													<select class="form-control" id="gender" name="gender" required>
-													<option value="">Select gender</option>
-													<option value="male">Male</option>
-													<option value="female">Female</option>
-													<option value="other">Other</option>
-													</select>
-												</div>
-												</div>
-												<div class="form-row">
-												<div class="form-group col-md-6">
-													<label for="phone">Phone Number</label>
-													<input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
-												</div>
-												<div class="form-group col-md-6">
-													<label for="email">Email</label>
-													<input type="email" class="form-control" id="email" name="email" required>
-												</div>
-												</div>
-												<div class="form-group">
-												<label for="address">Address Line 1</label>
-												<input type="text" class="form-control" id="address" name="address" required>
-												</div>
-												<div class="form-row">
-												<div class="form-group col-md-6">
-													<label for="city">City</label>
-													<input type="text" class="form-control" id="city" name="city" required>
-												</div>
-												<div class="form-group col-md-4">
-													<label for="state">State</label>
-													<select class="form-control" id="state" name="state" required>
-													<option value="">Select state</option>
-													<option value="AL">Houston</option>
-													<option value="AK">sugarland</option>
-													<option value="AZ">Texas</option>
-												
-													</select>
-												</div>
-												<div class="form-group col-md-2">
-													<label for="zip">Zip Code</label>
-													<input type="text" class="form-control" id="zip" name="zip" pattern="[0-9]{5}" required>
-												</div>
-												</div>
-												<div class="form-group">
-												<label for="info">Info for the Provider</label>
-												<textarea class="form-control" id="info" name="info" rows="3" required></textarea>
-												</div>
-												<div class="form-group">
-												<label for="payment">Payment details</label>
-												<input type="text" class="form-control" id="payment" name="payment" required>
-												</div>
-										</option>
-									</select> -->
-									<!-- <form action="">
-										<input type="text" />
-									</form> -->
-
-									<input type="text" name="name" data-conv-question="Alright! First, tell me your full name, please.|Okay! Please, tell me your name first.">
-									<input type="text" data-conv-question="Howdy, {name}:0! It's a pleasure to meet you." data-no-answer="true">
-	                                <input type="text" data-conv-question="This plugin supports multi-select too. Let's see an example." data-no-answer="true">
-	                                <select name="multi[]" data-conv-question="Accepted Insurances"  multiple>
-	                                    <option value="Rock">Aetna Health Plans</option>
-	                                    <option value="Pop">Blue Cross and Blue Shield - Texas</option>
-	                                    <option value="Country">Cigna</option>
-	                                    <option value="yes">Humana Care Plan</option>
-										<option value="Rock">Medicare</option>
-	                                    <option value="Pop">MHealth</option>
-	                                    <option value="Country">OptumHealth</option>
-	                                    <option value="Classic">SelectCare</option>
-										<option value="Rock">TexanPlus</option>
-	                                    <option value="Pop">UnitedHealthCare</option>
-	                                    <option value="Country">Wellcare</option>
-	                                    <option value="Classic">Memorial Hermann Health Insurance</option>
+									<input type="text" name="name" data-conv-question="Alright! First, tell me your full name, please.| Please, tell me your firstname it appears on driver license.">
+									<input type="text" name="name" data-conv-question="Okay! {name}:0! Please, tell me your Lastname">
+									<input type="text"  data-conv-question=" D.O.B"id="dob" name="dob" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="YYYY-MM-DD" required>
+									<select  data-conv-question="Select gender"class="form-control" id="gender" name="gender" required>
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+										<option value="other">Other</option>
+									</select>
+									<input type="text" name="name" data-conv-question="Okay! Please tell your Mobile Number">
+									<input data-conv-question="Type in your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" id="email" type="email" name="email" required placeholder="What's your e-mail?">
+									<input type="text" name="name" data-conv-question=" Enter your Address line 1">
+									<input type="text" name="name" data-conv-question=" City">
+									<input type="text" name="name" data-conv-question=" State">
+									<input type="text" name="name" data-conv-question=" Zip code"  id="zip" name="zip" pattern="[0-9]{5}" required>
+									<input type="text" name="name" data-conv-question=" info the provider, Please, enter your symptoms, here">
+									<select  data-conv-question="Payment Details"class="form-control" id="gender" name="gender" required>
+										<option value="male">By cash</option>
+										<option value="female">By Insurances</option>
+										<option value="other">not applicable</option>
+									</select>
+									<input type="text" name="name" data-conv-question=" Insurances Details">
+									<input type="text" name="name" data-conv-question=" Insurances Subscriber No">
+									<input type="text" data-conv-question="We need to verify your phone number for this booking " data-no-answer="true">
+	                                <input type="text" data-conv-question="This will be done by an  instant  phone call or text message" data-no-answer="true">
+									<input type="text" data-conv-question="Select your preferance" data-no-answer="true">
+									<select name="callbackTest" data-conv-question="" name="first-question" data-callback="storeState">
+										<option  value="yes" data-callback="rollback" >Yes</option>
+	                                    <option value="no" data-callback="rollback">No</option>
 	                                </select>
-									<select data-conv-question="" name="first-question">
-										<option value="yes">Yes</option>
-	                                    <option value="sure">No</option>
-	                                </select>
-	                                <select name="programmer" data-callback="storeState" data-conv-question="So, are you a programmer? (this question will fork the conversation based on your answer)">
+									<select data-conv-question="">
+										<option  >text</option>
+										<option >voice</option>
+									</select>
+	                                <!-- <select name="programmer" data-callback="storeState" data-conv-question="So, are you a programmer? (this question will fork the conversation based on your answer)">
 	                                    <option value="yes">Yes</option>
 	                                    <option value="no">No</option>
 	                                </select>
@@ -193,14 +129,14 @@
 									<select data-conv-question="Selects also support callback functions. For example, try one of these:">
 											<option value="google" data-callback="google">Google</option>
 											<option value="bing" data-callback="bing">Bing</option>
-									</select>
-	                                <select name="callbackTest" data-conv-question="You can do some cool things with callback functions. Want to rollback to the 'programmer' question before?">
+									</select> -->
+	                                <!-- <select name="callbackTest" data-conv-question="You can do some cool things with callback functions. Want to rollback to the 'programmer' question before?">
 	                                    <option value="yes" data-callback="rollback">Yes</option>
 	                                    <option value="no" data-callback="restore">No</option>
-	                                </select>
-	                                <select data-conv-question="This is it! If you like me, consider donating! If you need support, contact me. When the form gets to the end, the plugin submits it normally, like you had filled it." id="">
-	                                    <option value="">Awesome!</option>
-	                                </select>
+	                                </select> -->
+	                                <!-- <select data-conv-question="verified" id="">
+	                                    <option value="">Thank You!</option>
+	                                </select> -->
 	                            </form>
 	                        </div>
 	                    </div>
